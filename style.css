@@ -24,7 +24,7 @@ body{
 }
 .nav-link:hover {
     color: #F7CD46 !important;
-    font-size: 1.2rem;
+    font-size: 1.2rem; 
 }
 .logo img{
     display: flex;
