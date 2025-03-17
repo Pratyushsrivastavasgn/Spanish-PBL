@@ -1,0 +1,130 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    color: white;
+}
+
+body {
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20240425/pngtree-top-desk-with-blur-restaurant-background-wooden-table-image_15665383.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.dish1{ 
+    margin: 70px;
+    display: flex;  
+    background-color: rgba(30, 30, 30, 0.8);
+    border-radius: 5px;
+    display: flex;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}  
+
+.dish1 div{
+    margin: 1rem;
+    display: flex;
+    height: 10px;
+}
+
+.dish1 p{
+    margin: 1rem;
+    display: flex;
+    margin: 100px;
+}
+
+.dish2{ 
+    padding: 30px;
+    margin: 70px;
+    display: flex;  
+    background-color: rgba(30, 30, 30, 0.8);
+    border-radius: 15px;
+    display: flex;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}  
+
+.dish3{ 
+    padding: 30px;
+    margin: 70px;
+    display: flex; 
+    background-color: rgba(30, 30, 30, 0.8);
+    border-radius: 5px;
+    display: flex;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}  
+
+.dish4{ 
+    padding: 30px;
+    margin: 70px;
+    display: flex;  
+    background-color: rgba(30, 30, 30, 0.8);
+    border-radius: 5px;
+    display: flex;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}  
+
+.dish5{ 
+    padding: 30px;
+    margin: 70px;
+    display: flex;  
+    background-color: rgba(30, 30, 30, 0.8);
+    border-radius: 5px;
+    display: flex;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#google_translate_element img {
+    width: 13%;
+    height: 0px;
+}
+
+p{
+    margin: 20px;
+    font-size: 30px;
+    font-family: fancy;
+}
+
+@media (max-width: 768px) {
+    img {
+        width: 80%;
+        height: auto;
+    }
+    .dish1,
+    .dish2,
+    .dish3,
+    .dish4,
+    .dish5 {
+        margin: 30px;
+        padding: 15px;
+        flex-direction: column;
+    }
+    p {
+        font-size: 24px;
+        margin: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    img {
+        width: 100%;
+        height: auto;
+    }
+    .dish1,
+    .dish2,
+    .dish3,
+    .dish4,
+    .dish5 {
+        margin: 15px;
+        padding: 10px;
+        flex-direction: column;
+    }
+    p {
+        font-size: 18px;
+        margin: 10px;
+    }
+}

@@ -1,0 +1,115 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    color: white;
+}
+
+body {
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20240425/pngtree-top-desk-with-blur-restaurant-background-wooden-table-image_15665383.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.Desserts1{
+    padding: 2rem;
+    margin: 70px;
+    display: flex;  
+    background-color: rgba(30, 30, 30, 0.8);
+    border-radius: 5px;
+    display: flex;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Desserts2{
+    padding: 2rem;
+    margin: 70px;
+    display: flex;  
+    background-color: rgba(30, 30, 30, 0.8);
+    border-radius: 5px;
+    display: flex;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Desserts3{
+    padding: 2rem;
+    margin: 70px;
+    display: flex;  
+    background-color: rgba(30, 30, 30, 0.8);
+    border-radius: 5px;
+    display: flex;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Desserts4{
+    padding: 2rem;
+    margin: 70px;
+    display: flex;  
+    background-color: rgba(30, 30, 30, 0.8);
+    border-radius: 5px;
+    display: flex;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Desserts5{
+    padding: 2rem;
+    margin: 70px;
+    display: flex;  
+    background-color: rgba(30, 30, 30, 0.8);
+    border-radius: 5px;
+    display: flex;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#google_translate_element img {
+    width: 13%;
+    height: 0px;
+}
+p{
+    margin: 2rem;
+    font-size: 30px;
+    font-family: fancy;
+}
+
+@media (max-width: 768px) {
+ 
+    img {
+        width: 80%;
+        height: auto;
+    }
+  
+    .Desserts1,
+    .Desserts2,
+    .Desserts3,
+    .Desserts4,
+    .Desserts5 {
+        margin: 40px;
+        padding: 1.5rem;
+        flex-direction: column;
+        align-items: center;
+    }
+ 
+    p {
+        font-size: 24px;
+        margin: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    img {
+        width: 100%;
+        height: auto;
+    }
+    .Desserts1,
+    .Desserts2,
+    .Desserts3,
+    .Desserts4,
+    .Desserts5 {
+        margin: 20px;
+        padding: 1rem;
+    }
+    p {
+        font-size: 20px;
+        margin: 1rem;
+    }
+}

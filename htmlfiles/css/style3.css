@@ -1,0 +1,110 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body {
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20240425/pngtree-top-desk-with-blur-restaurant-background-wooden-table-image_15665383.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.b1 {
+    margin: 70px;
+    display: flex;  
+    background-color: rgba(30, 30, 30, 0.8);
+    border-radius: 5px;
+    display: flex;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.b2{
+    margin: 70px;
+    display: flex;  
+    background-color: rgba(30, 30, 30, 0.8);
+    border-radius: 5px;
+    display: flex;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.b3{
+    margin: 70px;
+    display: flex;  
+    background-color: rgba(30, 30, 30, 0.8);
+    border-radius: 5px;
+    display: flex;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.b4{
+    margin: 70px;
+    display: flex;  
+    background-color: rgba(30, 30, 30, 0.8);
+    border-radius: 5px;
+    display: flex;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.b5{
+    margin: 70px;
+    display: flex;  
+    background-color: rgba(30, 30, 30, 0.8);
+    border-radius: 5px;
+    display: flex;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#google_translate_element img {
+    width: 13%;
+    height: 0px;
+}
+p{  
+    margin: 1rem;
+    font-size: 30px;
+    font-family: fancy;
+}
+h1{
+    margin: 1.5rem;
+}
+
+@media (max-width: 768px) {
+
+    img {
+        width: 80%;
+        height: auto;
+    }
+
+    .b1, .b2, .b3, .b4, .b5 {
+        margin: 40px;
+        flex-direction: column;
+        align-items: center;
+    }
+ 
+    p {
+        font-size: 24px;
+    }
+    h1 {
+        margin: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    img {
+        width: 100%;
+        height: auto;
+    }
+    .b1, .b2, .b3, .b4, .b5 {
+        margin: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+    p {
+        font-size: 20px;
+    }
+    h1 {
+        margin: 0.5rem;
+    }
+}

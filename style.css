@@ -1,61 +1,147 @@
-body{
+body {
     background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20240425/pngtree-top-desk-with-blur-restaurant-background-wooden-table-image_15665383.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 0;
+    padding: 0;
 }
 
-.navi{
-    position:fixed;
+/* Navigation Bar */
+.navi {
+    position: fixed;
     width: 100%;
+    top: 0;
+    z-index: 1000;
 }
 
-.topnav{
-    background-color: #A71D45 ;
+.topnav {
+    background-color: #A71D45;
     color: white !important;
-
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5vh 2vw;
+    flex-wrap: wrap;
 }
+
 .topnav .nav-link {
     color: aliceblue !important;
+    font-size: 1.5vw;
 }
-.topnav .navbar-brand{
-    
+
+.topnav .navbar-brand {
     color: #F7CD46 !important;
+    font-size: 2.5vw;
 }
+
 .nav-link:hover {
     color: #F7CD46 !important;
-    font-size: 1.2rem; 
+    font-size: 1.8vw;
 }
-.logo img{
-    display: flex;
-    justify-self: center;
-    width: 60vw;
-    height: 50vw;
+
+/* Logo */
+.logo img {
+    display: block;
+    width: 30rem;  /* Adjust size */
+    height: 25rem;  /* Maintain aspect ratio */
+    margin: 100px auto; /* Center the image */
 }
-.menu{ 
+
+
+
+
+/* Menu */
+.menu {
     display: flex;
-    align-self: center;
+    align-items: center;
     justify-content: center;
-    margin-top: 15vh;   
+    margin-top: 20vh;
+    flex-direction: column;
+    padding: 2vh 2vw;
 }
-.menu ul{
+
+.menu ul {
     background-color: rgba(108, 128, 128, 0.712);
     list-style: none;
-    border-radius: 20px;
+    border-radius: 2vw;
+    padding: 2vh 2vw;
+    width: 90%;
+    max-width: 600px;
     text-align: center;
 }
-.menu ul li a{
-    margin: 200px;
-    margin-bottom: 50px;
 
-    font-size: 50px;
+.menu ul li {
+    margin: 2vh 0;
+}
+
+.menu ul li a {
+    font-size: 4vw;
     color: black;
     text-decoration: none;
-    list-style: none;
+    display: block;
+    padding: 1vh 1vw;
 }
-.menu ul li  a:hover{
+
+.menu ul li a:hover {
     color: aqua;
-    font-size: 65px;
+    font-size: 4.5vw;
+}
 
+/* Reservations */
+.reservations {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2vh 2vw;
+}
 
+/* Responsive Adjustments */
+@media screen and (max-width: 768px) {
+    .topnav {
+        flex-direction: column;
+        text-align: center;
+        padding: 3vh 2vw;
+    }
+
+    .topnav .nav-link {
+        font-size: 2.5vw;
+    }
+
+    .menu {
+        margin-top: 15vh;
+    }
+
+    .menu ul {
+        width: 95%;
+        padding: 2vh 2vw;
+    }
+
+    .menu ul li a {
+        font-size: 5vw;
+    }
+
+    .menu ul li a:hover {
+        font-size: 5.5vw;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .menu {
+        margin-top: 10vh;
+    }
+
+    .menu ul {
+        width: 100%;
+        padding: 2vh 2vw;
+    }
+
+    .menu ul li a {
+        font-size: 6vw;
+    }
+
+    .menu ul li a:hover {
+        font-size: 7vw;
+    }
 }

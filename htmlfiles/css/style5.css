@@ -1,0 +1,66 @@
+*{
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20240425/pngtree-top-desk-with-blur-restaurant-background-wooden-table-image_15665383.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+iframe {
+  width: 100%; 
+  max-width: 600px; 
+  height: 90%;
+  border: none; 
+}
+
+img {
+  width: 10%;
+  height: fit-content;
+}
+
+#google_translate_element img {
+  width: 13%;
+  height: 0px;
+}
+
+p{
+  font-size: 30px;
+  font-family: fancy;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  iframe {
+      max-width: 90%;
+      height: 80%;
+  }
+  img {
+      width: 15%;
+  }
+  p {
+      font-size: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  iframe {
+      max-width: 100%;
+      height: 75%;
+  }
+  img {
+      width: 20%;
+  }
+  p {
+      font-size: 20px;
+  }
+}
